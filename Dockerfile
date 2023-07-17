@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port that the API will listen on
-EXPOSE 3000
+EXPOSE 80
 
 # Define the command to run the API
 CMD ["node", "index.js"]
